@@ -20,6 +20,7 @@ class Master(multiprocessing.Process):
 
     def update_phase_duration(self, entry):
         curr_phase = self.connection.trafficlights.getPhase(entry.agent.id)
+        #print("current phase in update_phase_duration "+str(curr_phase))
         if curr_phase != entry.phase:
             entry.phase = curr_phase
             entry.phase_duration = 1

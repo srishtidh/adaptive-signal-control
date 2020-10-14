@@ -82,20 +82,37 @@ def main():
     args = get_args()
 
     flows = [
-             Flow(route=["-gneE3"], count=105, begin=0, end=600),
-             Flow(route=["gneE0"], count=45, begin=0, end=600),
-             Flow(route=["-gneE3"], count=75, begin=600, end=1200),
-             Flow(route=["gneE0"], count=75, begin=600, end=1200),
-             Flow(route=["-gneE3"], count=45, begin=1200, end=1800),
-             Flow(route=["gneE0"], count=105, begin=1200, end=1800),
+                 Flow(route=["-11694197#0"], count=320, begin=0, end=300),
+                 Flow(route=["625851637"], count=320, begin=0, end=300),
+                 Flow(route=["322361922#0"], count=320, begin=0, end=300),
+                 Flow(route=["-320948884#0"], count=160, begin=0, end=300),
+                 Flow(route=["-54460235#4"], count=160, begin=0, end=300),
+                 Flow(route=["54500409#4"], count=160, begin=0, end=300),
+                 Flow(route=["-25626142"], count=160, begin=0, end=300), #77
+
+                 Flow(route=["-11694197#0"], count=256, begin=300, end=600),
+                 Flow(route=["625851637"], count=256, begin=300, end=600),
+                 Flow(route=["322361922#0"], count=224, begin=300, end=600),
+                 Flow(route=["-320948884#0"], count=224, begin=300, end=600),
+                 Flow(route=["-54460235#4"], count=224, begin=300, end=600),
+                 Flow(route=["54500409#4"], count=160, begin=300, end=600),
+                 Flow(route=["-25626142"], count=256, begin=300, end=600),
+
+                 Flow(route=["-11694197#0"], count=160, begin=600, end=900),
+                 Flow(route=["625851637"], count=160, begin=00, end=900),
+                 Flow(route=["322361922#0"], count=160, begin=600, end=900),
+                 Flow(route=["-320948884#0"], count=320, begin=600, end=900),
+                 Flow(route=["-54460235#4"], count=320, begin=600, end=900),
+                 Flow(route=["54500409#4"], count=160, begin=600, end=900),
+                 Flow(route=["-25626142"], count=320, begin=600, end=900),
             ]
     
     turn_files = [
-                  '/home/srishti/adasco/experiments/ICAPS-2019/1x1/config/isolated.turn.pkl'
+                  '/home/srishti/backup/adasco/experiments/ICAPS-2019/SURTRAC/all-turns/config/edit_sumo3_2_speed10.turn.pkl'
                  ]
 
     flow_files = [
-                  '/home/srishti/adasco/experiments/ICAPS-2019/1x1/config/{0}/{0}.flow.xml'.format(args.demand)
+                  '/home/srishti/backup/experiments/ICAPS-2019/1x1/config/{0}/{0}.flow.xml'.format(args.demand)
                  ]
     
     for turn_file, flow_file in zip(turn_files, flow_files):

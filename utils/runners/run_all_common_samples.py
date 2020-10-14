@@ -44,7 +44,7 @@ if __name__ == '__main__':
     with open(args.labels, 'r') as fp:
         labels = json.load(fp)
 
-    utils_dir = '/home/srishtid/adaptive-signal-control/adasco/utils/runners/'
+    utils_dir = '/home/srishti/adasco/utils/runners/'
 
     for label in labels:
 

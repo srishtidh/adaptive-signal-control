@@ -59,7 +59,7 @@ def get_args():
 
 
 def start_sumo(config_file, log_file, trip_file, additional_file, port):
-    args = ['sumo', '-c', config_file,
+    args = ['sumo-gui', '-c', config_file,
                     '--log-file', log_file,
                     '--tripinfo-output', trip_file,
                     '--additional-files', additional_file,
@@ -129,7 +129,7 @@ def main():
     agent_class = getattr(agent_module, '{}Agent'.format(options.agent))
 
     for tls in info:
-        #print("\ntls in info in run_adaptive.py"+str(tls))
+
         shared_results[tls] = manager.dict()
 
         Y = {int(phase):value for phase, value in info[tls]['Y'].items()}
@@ -172,7 +172,6 @@ def main():
         processes.append(process)
 
         first_phase = info[tls]['phases'][0]
-        #print("\nphases in info[tls]"+str(info[tls]['phases']))
         entry = adasco.registry.Entry(process,
                                       request_queue,
                                       response_queue,

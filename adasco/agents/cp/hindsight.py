@@ -26,7 +26,7 @@ class HindsightAgent(BaseAgent):
         self.sample_count = kwargs.get('sample_count')
         self.timelimit = kwargs.get('timelimit')
         [self.samples] = kwargs.get('samples')
-        self.cycle_count = self.get_naive_cycle_count()
+        self.cycle_count = 3
         self.scheduler = adasco.schedulers.cp.CP(self.phases,
                                                  self.Gmin,
                                                  self.Gmax,
@@ -52,8 +52,6 @@ class HindsightAgent(BaseAgent):
 
         start_sampling = timeit.default_timer()
 
-        per_edge_samples = []
-
         for index in range(self.sample_count):
             # logger.debug('{}: Generating sample # {}'.format(self.id, index))
 
@@ -72,24 +70,17 @@ class HindsightAgent(BaseAgent):
                         non_local_vehicle_positions = self.get_distance_from_junction(non_local_arrival_times)
                         tmp_sensor_data[edge].arriving_vehicle_positions.extend(non_local_vehicle_positions)
 
-            sample, per_edge_sample = self.preprocessor.pick_sample_for_sensor_data(tmp_sensor_data, self.samples, index, self.phases)
+            sample = self.preprocessor.pick_sample_for_sensor_data(tmp_sensor_data, self.samples, index, self.phases)
 
             cluster_count = sample.cluster_count
             if cluster_count == 0:
                 break
 
             samples.append(sample)
-            per_edge_samples.append(per_edge_sample)
-
-        # with open('{}-{}.pkl'.format(self.id.replace('/', '-'), curr_time), 'w') as fp:
-        #     pickle.dump(per_edge_samples, fp)
-
-        # logger.debug('{}: Generated samples = {}'.format(self.id, samples))
 
         time_sampling = timeit.default_timer() - start_sampling
 
         if cluster_count > 0:
-            # logger.debug('{}: Cluster count greater than zero; Planning now'.format(self.id))
 
             sample_tally = Counter(samples)
 

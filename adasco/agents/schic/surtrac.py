@@ -82,7 +82,7 @@ class SURTRACAgent(BaseAgent):
     def plan(self, sensor_data, curr_phase, curr_phase_duration, curr_time):
 
         # Is this value actually being used? Where?
-        self.min_cluster_size = 0
+        self.min_cluster_size = 0.0001
 
         logger.debug('Queue length = {}'.format([data.queue_length for edge, data in sensor_data.items()]))
 

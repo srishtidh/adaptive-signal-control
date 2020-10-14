@@ -41,12 +41,12 @@ if __name__ == '__main__':
     with open(args.labels, 'r') as fp:
         labels = json.load(fp)
 
-    utils_dir = '/home/srishti/adasco/utils/runners/'
+    utils_dir = '/home/srishti/backup/adasco/utils/runners/'
 
     for label in labels:
 
-        samples = os.path.join(args.config_dir, '{}-samples-{:03d}.pkl'.format(label, args.sample_set))
-
+        #samples = os.path.join(args.config_dir, '{}-samples-{:03d}.pkl'.format(label, args.sample_set))
+        samples = '/home/srishti/backup/adasco/experiments/ICAPS-2019/SURTRAC/all-turns/config/7800V/7800V-001-samples-001.pkl'
         if args.no_coord:
             print("===========================================================")
             print("Running uncoordinated experiment with label", label)

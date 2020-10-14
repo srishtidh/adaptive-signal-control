@@ -59,7 +59,7 @@ class SAAAgent(BaseAgent):
                         non_local_arrival_times = [arrival.time for arrival in non_local_arrivals]
                         non_local_vehicle_positions = self.get_distance_from_junction(non_local_arrival_times)
                         extended_sensor_data[edge].arriving_vehicle_positions.extend(non_local_vehicle_positions)
-
+            #print("index:"+str(index))
             sample = self.preprocessor.pick_sample_for_sensor_data(extended_sensor_data, self.samples, index, self.phases)
 
             cluster_count = sample.cluster_count
@@ -105,6 +105,8 @@ class SAAAgent(BaseAgent):
                 self.publish_results(vehicle_departures, curr_time)
 
         else:
+            if curr_phase not in self.Y:
+                print("Y"+ str(self.Y))
             extension = 0
             decision_point = curr_time + self.Y[curr_phase] + self.Gmin[self.get_next_phase(curr_phase)]
 

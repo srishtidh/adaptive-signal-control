@@ -47,7 +47,7 @@ def main():
     for tls in lights:
 
         tlsID = tls.getID()
-
+        #print(str(info))
         info[tlsID]['id'] = tlsID
         info[tlsID]['phases'] = []
         info[tlsID]['Y'] = {}
@@ -142,7 +142,8 @@ def main():
 def read_turn_proportions(info, turns_file, net):
     tree = ET.parse(turns_file)
     root = tree.getroot()
-    interval_element = root.getchildren()[0]
+    #interval_element = root.getchildren()[0]
+    interval_element = root.getchildren()
 
     for from_edge_element in interval_element:
         

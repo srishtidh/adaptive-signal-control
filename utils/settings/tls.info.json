@@ -1,0 +1,1515 @@
+{
+    "104523004": {
+        "Gmax": {
+            "0": 55, 
+            "2": 55, 
+            "4": 55, 
+            "6": 55
+        }, 
+        "Gmin": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "Y": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "edge_lengths": {
+            "-11685533#0": 50.51, 
+            "-54460235#0": 75.06, 
+            "299800402#0": 168.6, 
+            "322361922#3": 81.59
+        }, 
+        "extension_threshold": 60, 
+        "free_flow_speed": 10, 
+        "headway": 2.5, 
+        "horizon_extension": 15, 
+        "id": "104523004", 
+        "incoming_edges": {
+            "-11685533#0": [
+                "-11685533#0_0", 
+                "-11685533#0_1"
+            ], 
+            "-54460235#0": [
+                "-54460235#0_0", 
+                "-54460235#0_1"
+            ], 
+            "299800402#0": [
+                "299800402#0_0", 
+                "299800402#0_1"
+            ], 
+            "322361922#3": [
+                "322361922#3_0", 
+                "322361922#3_1"
+            ]
+        }, 
+        "merging_threshold": 3, 
+        "minimum_extension": 0, 
+        "order": 1, 
+        "outgoing_edges": {
+            "-299800402#0": [
+                "-299800402#0_0", 
+                "-299800402#0_1"
+            ], 
+            "-322361922#3": [
+                "-322361922#3_0", 
+                "-322361922#3_1"
+            ], 
+            "11685533#0": [
+                "11685533#0_1", 
+                "11685533#0_0"
+            ], 
+            "54460235#0": [
+                "54460235#0_1", 
+                "54460235#0_0"
+            ]
+        }, 
+        "phases": [
+            0, 
+            2, 
+            4, 
+            6
+        ], 
+        "sampling_interval": 1, 
+        "saturation_flow_rate": 0.8, 
+        "startup_lost_time": 3, 
+        "time_resolution": 1, 
+        "turn_proportions": [
+            {
+                "incoming_edge": "-11685533#0", 
+                "outgoing_edge": "-299800402#0", 
+                "phase": 4, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-11685533#0", 
+                "outgoing_edge": "-322361922#3", 
+                "phase": 4, 
+                "probability": 0.6
+            }, 
+            {
+                "incoming_edge": "-11685533#0", 
+                "outgoing_edge": "11685533#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-11685533#0", 
+                "outgoing_edge": "54460235#0", 
+                "phase": 6, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-54460235#0", 
+                "outgoing_edge": "-299800402#0", 
+                "phase": 0, 
+                "probability": 0.6
+            }, 
+            {
+                "incoming_edge": "-54460235#0", 
+                "outgoing_edge": "-322361922#3", 
+                "phase": 2, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-54460235#0", 
+                "outgoing_edge": "11685533#0", 
+                "phase": 0, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-54460235#0", 
+                "outgoing_edge": "54460235#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "299800402#0", 
+                "outgoing_edge": "-299800402#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "299800402#0", 
+                "outgoing_edge": "-322361922#3", 
+                "phase": 0, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "299800402#0", 
+                "outgoing_edge": "11685533#0", 
+                "phase": 2, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "299800402#0", 
+                "outgoing_edge": "54460235#0", 
+                "phase": 0, 
+                "probability": 0.6
+            }, 
+            {
+                "incoming_edge": "322361922#3", 
+                "outgoing_edge": "-299800402#0", 
+                "phase": 6, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "322361922#3", 
+                "outgoing_edge": "-322361922#3", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "322361922#3", 
+                "outgoing_edge": "11685533#0", 
+                "phase": 4, 
+                "probability": 0.6
+            }, 
+            {
+                "incoming_edge": "322361922#3", 
+                "outgoing_edge": "54460235#0", 
+                "phase": 4, 
+                "probability": 0.2
+            }
+        ], 
+        "upstream_agents": [
+            {
+                "connecting_edge": "299800402#0", 
+                "id": "104632337"
+            }, 
+            {
+                "connecting_edge": "-11685533#0", 
+                "id": "104523012"
+            }, 
+            {
+                "connecting_edge": "-54460235#0", 
+                "id": "3887055274"
+            }, 
+            {
+                "connecting_edge": "322361922#3", 
+                "id": "1382527653"
+            }
+        ]
+    }, 
+    "104523012": {
+        "Gmax": {
+            "0": 55, 
+            "2": 55, 
+            "4": 55, 
+            "6": 55
+        }, 
+        "Gmin": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "Y": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "edge_lengths": {
+            "-11685533#1": 37.52, 
+            "-11728100#0": 58.0, 
+            "11685533#0": 50.5, 
+            "124147486": 81.23
+        }, 
+        "extension_threshold": 60, 
+        "free_flow_speed": 10, 
+        "headway": 2.5, 
+        "horizon_extension": 15, 
+        "id": "104523012", 
+        "incoming_edges": {
+            "-11685533#1": [
+                "-11685533#1_0", 
+                "-11685533#1_1"
+            ], 
+            "-11728100#0": [
+                "-11728100#0_0"
+            ], 
+            "11685533#0": [
+                "11685533#0_0", 
+                "11685533#0_1"
+            ], 
+            "124147486": [
+                "124147486_0"
+            ]
+        }, 
+        "merging_threshold": 3, 
+        "minimum_extension": 0, 
+        "order": 2, 
+        "outgoing_edges": {
+            "-11685533#0": [
+                "-11685533#0_0", 
+                "-11685533#0_1"
+            ], 
+            "11685533#1": [
+                "11685533#1_1", 
+                "11685533#1_0"
+            ], 
+            "11728100#0": [
+                "11728100#0_0"
+            ]
+        }, 
+        "phases": [
+            0, 
+            2, 
+            4, 
+            6
+        ], 
+        "sampling_interval": 1, 
+        "saturation_flow_rate": 0.8, 
+        "startup_lost_time": 3, 
+        "time_resolution": 1, 
+        "turn_proportions": [
+            {
+                "incoming_edge": "-11685533#1", 
+                "outgoing_edge": "-11685533#0", 
+                "phase": 0, 
+                "probability": 1.0
+            }, 
+            {
+                "incoming_edge": "-11685533#1", 
+                "outgoing_edge": "11685533#1", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-11685533#1", 
+                "outgoing_edge": "11728100#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-11728100#0", 
+                "outgoing_edge": "-11685533#0", 
+                "phase": 6, 
+                "probability": 0.5
+            }, 
+            {
+                "incoming_edge": "-11728100#0", 
+                "outgoing_edge": "11685533#1", 
+                "phase": 4, 
+                "probability": 0.5
+            }, 
+            {
+                "incoming_edge": "-11728100#0", 
+                "outgoing_edge": "11728100#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "11685533#0", 
+                "outgoing_edge": "-11685533#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "11685533#0", 
+                "outgoing_edge": "11685533#1", 
+                "phase": 0, 
+                "probability": 1.0
+            }, 
+            {
+                "incoming_edge": "11685533#0", 
+                "outgoing_edge": "11728100#0", 
+                "phase": 0, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "124147486", 
+                "outgoing_edge": "-11685533#0", 
+                "phase": 4, 
+                "probability": 0.33333333330000003
+            }, 
+            {
+                "incoming_edge": "124147486", 
+                "outgoing_edge": "11685533#1", 
+                "phase": 6, 
+                "probability": 0.33333333330000003
+            }, 
+            {
+                "incoming_edge": "124147486", 
+                "outgoing_edge": "11728100#0", 
+                "phase": 4, 
+                "probability": 0.33333333330000003
+            }
+        ], 
+        "upstream_agents": [
+            {
+                "connecting_edge": "11685533#0", 
+                "id": "104523004"
+            }, 
+            {
+                "connecting_edge": "-11685533#1", 
+                "id": "104523020"
+            }
+        ]
+    }, 
+    "104523020": {
+        "Gmax": {
+            "0": 55, 
+            "2": 55, 
+            "4": 55, 
+            "6": 55
+        }, 
+        "Gmin": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "Y": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "edge_lengths": {
+            "-315355614#0": 133.54, 
+            "11685533#1": 37.52, 
+            "315355615#1": 80.24, 
+            "54500409#5": 99.69
+        }, 
+        "extension_threshold": 60, 
+        "free_flow_speed": 10, 
+        "headway": 2.5, 
+        "horizon_extension": 15, 
+        "id": "104523020", 
+        "incoming_edges": {
+            "-315355614#0": [
+                "-315355614#0_0", 
+                "-315355614#0_1"
+            ], 
+            "11685533#1": [
+                "11685533#1_0", 
+                "11685533#1_1"
+            ], 
+            "315355615#1": [
+                "315355615#1_0"
+            ], 
+            "54500409#5": [
+                "54500409#5_0", 
+                "54500409#5_1"
+            ]
+        }, 
+        "merging_threshold": 3, 
+        "minimum_extension": 0, 
+        "order": 3, 
+        "outgoing_edges": {
+            "-11685533#1": [
+                "-11685533#1_0", 
+                "-11685533#1_1"
+            ], 
+            "-315355615#1": [
+                "-315355615#1_0"
+            ], 
+            "-54500409#5": [
+                "-54500409#5_1", 
+                "-54500409#5_0"
+            ], 
+            "315355614#0": [
+                "315355614#0_1", 
+                "315355614#0_0"
+            ]
+        }, 
+        "phases": [
+            0, 
+            2, 
+            4, 
+            6
+        ], 
+        "sampling_interval": 1, 
+        "saturation_flow_rate": 0.8, 
+        "startup_lost_time": 3, 
+        "time_resolution": 1, 
+        "turn_proportions": [
+            {
+                "incoming_edge": "-315355614#0", 
+                "outgoing_edge": "-11685533#1", 
+                "phase": 0, 
+                "probability": 1.0
+            }, 
+            {
+                "incoming_edge": "-315355614#0", 
+                "outgoing_edge": "-315355615#1", 
+                "phase": 0, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-315355614#0", 
+                "outgoing_edge": "-54500409#5", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-315355614#0", 
+                "outgoing_edge": "315355614#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "11685533#1", 
+                "outgoing_edge": "-11685533#1", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "11685533#1", 
+                "outgoing_edge": "-315355615#1", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "11685533#1", 
+                "outgoing_edge": "-54500409#5", 
+                "phase": 0, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "11685533#1", 
+                "outgoing_edge": "315355614#0", 
+                "phase": 0, 
+                "probability": 1.0
+            }, 
+            {
+                "incoming_edge": "315355615#1", 
+                "outgoing_edge": "-11685533#1", 
+                "phase": 4, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "315355615#1", 
+                "outgoing_edge": "-315355615#1", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "315355615#1", 
+                "outgoing_edge": "-54500409#5", 
+                "phase": 4, 
+                "probability": 0.6
+            }, 
+            {
+                "incoming_edge": "315355615#1", 
+                "outgoing_edge": "315355614#0", 
+                "phase": 6, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "54500409#5", 
+                "outgoing_edge": "-11685533#1", 
+                "phase": 6, 
+                "probability": 1.0
+            }, 
+            {
+                "incoming_edge": "54500409#5", 
+                "outgoing_edge": "-315355615#1", 
+                "phase": 4, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "54500409#5", 
+                "outgoing_edge": "-54500409#5", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "54500409#5", 
+                "outgoing_edge": "315355614#0", 
+                "phase": 4, 
+                "probability": 0.0
+            }
+        ], 
+        "upstream_agents": [
+            {
+                "connecting_edge": "11685533#1", 
+                "id": "104523012"
+            }, 
+            {
+                "connecting_edge": "-315355614#0", 
+                "id": "104523036"
+            }, 
+            {
+                "connecting_edge": "54500409#5", 
+                "id": "105003626"
+            }
+        ]
+    }, 
+    "104523036": {
+        "Gmax": {
+            "0": 55, 
+            "2": 55, 
+            "4": 55, 
+            "6": 55
+        }, 
+        "Gmin": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "Y": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "edge_lengths": {
+            "-124146853#0": 90.96, 
+            "-25626142": 77.66, 
+            "315355614#0": 133.54
+        }, 
+        "extension_threshold": 60, 
+        "free_flow_speed": 10, 
+        "headway": 2.5, 
+        "horizon_extension": 15, 
+        "id": "104523036", 
+        "incoming_edges": {
+            "-124146853#0": [
+                "-124146853#0_0"
+            ], 
+            "-25626142": [
+                "-25626142_0", 
+                "-25626142_1"
+            ], 
+            "315355614#0": [
+                "315355614#0_0", 
+                "315355614#0_1"
+            ]
+        }, 
+        "merging_threshold": 3, 
+        "minimum_extension": 0, 
+        "order": 4, 
+        "outgoing_edges": {
+            "-315355614#0": [
+                "-315355614#0_1", 
+                "-315355614#0_0"
+            ], 
+            "11685997#0": [
+                "11685997#0_1", 
+                "11685997#0_0"
+            ], 
+            "124146853#0": [
+                "124146853#0_0"
+            ], 
+            "25626142": [
+                "25626142_0", 
+                "25626142_1"
+            ]
+        }, 
+        "phases": [
+            0, 
+            2, 
+            4, 
+            6
+        ], 
+        "sampling_interval": 1, 
+        "saturation_flow_rate": 0.8, 
+        "startup_lost_time": 3, 
+        "time_resolution": 1, 
+        "turn_proportions": [
+            {
+                "incoming_edge": "-124146853#0", 
+                "outgoing_edge": "-315355614#0", 
+                "phase": 6, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-124146853#0", 
+                "outgoing_edge": "11685997#0", 
+                "phase": 4, 
+                "probability": 0.6
+            }, 
+            {
+                "incoming_edge": "-124146853#0", 
+                "outgoing_edge": "124146853#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-124146853#0", 
+                "outgoing_edge": "25626142", 
+                "phase": 4, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-25626142", 
+                "outgoing_edge": "-315355614#0", 
+                "phase": 0, 
+                "probability": 1.0
+            }, 
+            {
+                "incoming_edge": "-25626142", 
+                "outgoing_edge": "11685997#0", 
+                "phase": 0, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-25626142", 
+                "outgoing_edge": "124146853#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-25626142", 
+                "outgoing_edge": "25626142", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "315355614#0", 
+                "outgoing_edge": "-315355614#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "315355614#0", 
+                "outgoing_edge": "11685997#0", 
+                "phase": 2, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "315355614#0", 
+                "outgoing_edge": "124146853#0", 
+                "phase": 4, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "315355614#0", 
+                "outgoing_edge": "25626142", 
+                "phase": 0, 
+                "probability": 0.6
+            }
+        ], 
+        "upstream_agents": [
+            {
+                "connecting_edge": "315355614#0", 
+                "id": "104523020"
+            }
+        ]
+    }, 
+    "104530304": {
+        "Gmax": {
+            "0": 55, 
+            "2": 55, 
+            "4": 55, 
+            "6": 55
+        }, 
+        "Gmin": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "Y": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "edge_lengths": {
+            "-320948884#0": 36.66, 
+            "-322361922#1": 83.09, 
+            "11743058#0": 138.37, 
+            "322361922#0": 59.07
+        }, 
+        "extension_threshold": 60, 
+        "free_flow_speed": 10, 
+        "headway": 2.5, 
+        "horizon_extension": 15, 
+        "id": "104530304", 
+        "incoming_edges": {
+            "-320948884#0": [
+                "-320948884#0_0", 
+                "-320948884#0_1"
+            ], 
+            "-322361922#1": [
+                "-322361922#1_0", 
+                "-322361922#1_1"
+            ], 
+            "11743058#0": [
+                "11743058#0_0"
+            ], 
+            "322361922#0": [
+                "322361922#0_0", 
+                "322361922#0_1"
+            ]
+        }, 
+        "merging_threshold": 3, 
+        "minimum_extension": 0, 
+        "order": 5, 
+        "outgoing_edges": {
+            "-11743058#0": [
+                "-11743058#0_0"
+            ], 
+            "-322361922#0": [
+                "-322361922#0_1", 
+                "-322361922#0_0"
+            ], 
+            "320948884#0": [
+                "320948884#0_1", 
+                "320948884#0_0"
+            ], 
+            "322361922#1": [
+                "322361922#1_0", 
+                "322361922#1_1"
+            ]
+        }, 
+        "phases": [
+            0, 
+            2, 
+            4, 
+            6
+        ], 
+        "sampling_interval": 1, 
+        "saturation_flow_rate": 0.8, 
+        "startup_lost_time": 3, 
+        "time_resolution": 1, 
+        "turn_proportions": [
+            {
+                "incoming_edge": "-320948884#0", 
+                "outgoing_edge": "-11743058#0", 
+                "phase": 4, 
+                "probability": 0.8
+            }, 
+            {
+                "incoming_edge": "-320948884#0", 
+                "outgoing_edge": "-322361922#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-320948884#0", 
+                "outgoing_edge": "320948884#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-320948884#0", 
+                "outgoing_edge": "322361922#1", 
+                "phase": 4, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-322361922#1", 
+                "outgoing_edge": "-11743058#0", 
+                "phase": 0, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-322361922#1", 
+                "outgoing_edge": "-322361922#0", 
+                "phase": 0, 
+                "probability": 0.8
+            }, 
+            {
+                "incoming_edge": "-322361922#1", 
+                "outgoing_edge": "320948884#0", 
+                "phase": 2, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-322361922#1", 
+                "outgoing_edge": "322361922#1", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "11743058#0", 
+                "outgoing_edge": "-11743058#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "11743058#0", 
+                "outgoing_edge": "-322361922#0", 
+                "phase": 4, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "11743058#0", 
+                "outgoing_edge": "320948884#0", 
+                "phase": 4, 
+                "probability": 0.6
+            }, 
+            {
+                "incoming_edge": "11743058#0", 
+                "outgoing_edge": "322361922#1", 
+                "phase": 6, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "322361922#0", 
+                "outgoing_edge": "-11743058#0", 
+                "phase": 2, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "322361922#0", 
+                "outgoing_edge": "-322361922#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "322361922#0", 
+                "outgoing_edge": "320948884#0", 
+                "phase": 0, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "322361922#0", 
+                "outgoing_edge": "322361922#1", 
+                "phase": 0, 
+                "probability": 0.8
+            }
+        ], 
+        "upstream_agents": [
+            {
+                "connecting_edge": "-322361922#1", 
+                "id": "1382527653"
+            }, 
+            {
+                "connecting_edge": "11743058#0", 
+                "id": "104632337"
+            }
+        ]
+    }, 
+    "104632337": {
+        "Gmax": {
+            "0": 55, 
+            "2": 55, 
+            "4": 55, 
+            "6": 55
+        }, 
+        "Gmin": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "Y": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "edge_lengths": {
+            "-11694197#0": 56.44, 
+            "-11743058#0": 138.26, 
+            "-299800402#0": 168.6, 
+            "625851637": 76.54
+        }, 
+        "extension_threshold": 60, 
+        "free_flow_speed": 10, 
+        "headway": 2.5, 
+        "horizon_extension": 15, 
+        "id": "104632337", 
+        "incoming_edges": {
+            "-11694197#0": [
+                "-11694197#0_0"
+            ], 
+            "-11743058#0": [
+                "-11743058#0_0"
+            ], 
+            "-299800402#0": [
+                "-299800402#0_0", 
+                "-299800402#0_1"
+            ], 
+            "625851637": [
+                "625851637_0", 
+                "625851637_1"
+            ]
+        }, 
+        "merging_threshold": 3, 
+        "minimum_extension": 0, 
+        "order": 6, 
+        "outgoing_edges": {
+            "-625851637": [
+                "-625851637_0", 
+                "-625851637_1"
+            ], 
+            "11694197#0": [
+                "11694197#0_0"
+            ], 
+            "11743058#0": [
+                "11743058#0_0"
+            ], 
+            "299800402#0": [
+                "299800402#0_1", 
+                "299800402#0_0"
+            ]
+        }, 
+        "phases": [
+            0, 
+            2, 
+            4, 
+            6
+        ], 
+        "sampling_interval": 1, 
+        "saturation_flow_rate": 0.8, 
+        "startup_lost_time": 3, 
+        "time_resolution": 1, 
+        "turn_proportions": [
+            {
+                "incoming_edge": "-11694197#0", 
+                "outgoing_edge": "-625851637", 
+                "phase": 4, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-11694197#0", 
+                "outgoing_edge": "11694197#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-11694197#0", 
+                "outgoing_edge": "11743058#0", 
+                "phase": 4, 
+                "probability": 0.8
+            }, 
+            {
+                "incoming_edge": "-11694197#0", 
+                "outgoing_edge": "299800402#0", 
+                "phase": 6, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-11743058#0", 
+                "outgoing_edge": "-625851637", 
+                "phase": 6, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-11743058#0", 
+                "outgoing_edge": "11694197#0", 
+                "phase": 4, 
+                "probability": 0.6
+            }, 
+            {
+                "incoming_edge": "-11743058#0", 
+                "outgoing_edge": "11743058#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-11743058#0", 
+                "outgoing_edge": "299800402#0", 
+                "phase": 4, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-299800402#0", 
+                "outgoing_edge": "-625851637", 
+                "phase": 0, 
+                "probability": 0.8
+            }, 
+            {
+                "incoming_edge": "-299800402#0", 
+                "outgoing_edge": "11694197#0", 
+                "phase": 0, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-299800402#0", 
+                "outgoing_edge": "11743058#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-299800402#0", 
+                "outgoing_edge": "299800402#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "625851637", 
+                "outgoing_edge": "-625851637", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "625851637", 
+                "outgoing_edge": "11694197#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "625851637", 
+                "outgoing_edge": "11743058#0", 
+                "phase": 0, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "625851637", 
+                "outgoing_edge": "299800402#0", 
+                "phase": 0, 
+                "probability": 0.8
+            }
+        ], 
+        "upstream_agents": [
+            {
+                "connecting_edge": "-11743058#0", 
+                "id": "104530304"
+            }, 
+            {
+                "connecting_edge": "-299800402#0", 
+                "id": "104523004"
+            }
+        ]
+    }, 
+    "105003626": {
+        "Gmax": {
+            "0": 55, 
+            "2": 55, 
+            "4": 55, 
+            "6": 55
+        }, 
+        "Gmin": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "Y": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "edge_lengths": {
+            "-11960612#0": 40.13, 
+            "-54500409#5": 99.69, 
+            "126233175#2": 14.55, 
+            "54500409#4": 116.22
+        }, 
+        "extension_threshold": 60, 
+        "free_flow_speed": 10, 
+        "headway": 2.5, 
+        "horizon_extension": 15, 
+        "id": "105003626", 
+        "incoming_edges": {
+            "-11960612#0": [
+                "-11960612#0_0"
+            ], 
+            "-54500409#5": [
+                "-54500409#5_0", 
+                "-54500409#5_1"
+            ], 
+            "126233175#2": [
+                "126233175#2_0"
+            ], 
+            "54500409#4": [
+                "54500409#4_0", 
+                "54500409#4_1"
+            ]
+        }, 
+        "merging_threshold": 3, 
+        "minimum_extension": 0, 
+        "order": 7, 
+        "outgoing_edges": {
+            "-126233175#2": [
+                "-126233175#2_0"
+            ], 
+            "-54500409#4": [
+                "-54500409#4_1", 
+                "-54500409#4_0"
+            ], 
+            "11960612#0": [
+                "11960612#0_0"
+            ], 
+            "54500409#5": [
+                "54500409#5_0", 
+                "54500409#5_1"
+            ]
+        }, 
+        "phases": [
+            0, 
+            2, 
+            4, 
+            6
+        ], 
+        "sampling_interval": 1, 
+        "saturation_flow_rate": 0.8, 
+        "startup_lost_time": 3, 
+        "time_resolution": 1, 
+        "turn_proportions": [
+            {
+                "incoming_edge": "-11960612#0", 
+                "outgoing_edge": "-126233175#2", 
+                "phase": 4, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-11960612#0", 
+                "outgoing_edge": "-54500409#4", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-11960612#0", 
+                "outgoing_edge": "11960612#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-11960612#0", 
+                "outgoing_edge": "54500409#5", 
+                "phase": 4, 
+                "probability": 1.0
+            }, 
+            {
+                "incoming_edge": "-54500409#5", 
+                "outgoing_edge": "-126233175#2", 
+                "phase": 0, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-54500409#5", 
+                "outgoing_edge": "-54500409#4", 
+                "phase": 0, 
+                "probability": 0.6
+            }, 
+            {
+                "incoming_edge": "-54500409#5", 
+                "outgoing_edge": "11960612#0", 
+                "phase": 2, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "-54500409#5", 
+                "outgoing_edge": "54500409#5", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "126233175#2", 
+                "outgoing_edge": "-126233175#2", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "126233175#2", 
+                "outgoing_edge": "-54500409#4", 
+                "phase": 4, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "126233175#2", 
+                "outgoing_edge": "11960612#0", 
+                "phase": 4, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "126233175#2", 
+                "outgoing_edge": "54500409#5", 
+                "phase": 6, 
+                "probability": 1.0
+            }, 
+            {
+                "incoming_edge": "54500409#4", 
+                "outgoing_edge": "-126233175#2", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "54500409#4", 
+                "outgoing_edge": "-54500409#4", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "54500409#4", 
+                "outgoing_edge": "11960612#0", 
+                "phase": 0, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "54500409#4", 
+                "outgoing_edge": "54500409#5", 
+                "phase": 0, 
+                "probability": 1.0
+            }
+        ], 
+        "upstream_agents": [
+            {
+                "connecting_edge": "-54500409#5", 
+                "id": "104523020"
+            }
+        ]
+    }, 
+    "1382527653": {
+        "Gmax": {
+            "0": 55, 
+            "2": 55, 
+            "4": 55, 
+            "6": 55
+        }, 
+        "Gmin": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "Y": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "edge_lengths": {
+            "-322361922#3": 81.59, 
+            "124139640#0": 35.01, 
+            "322361922#1": 83.56
+        }, 
+        "extension_threshold": 60, 
+        "free_flow_speed": 10, 
+        "headway": 2.5, 
+        "horizon_extension": 15, 
+        "id": "1382527653", 
+        "incoming_edges": {
+            "-322361922#3": [
+                "-322361922#3_0", 
+                "-322361922#3_1"
+            ], 
+            "124139640#0": [
+                "124139640#0_0", 
+                "124139640#0_1"
+            ], 
+            "322361922#1": [
+                "322361922#1_0", 
+                "322361922#1_1"
+            ]
+        }, 
+        "merging_threshold": 3, 
+        "minimum_extension": 0, 
+        "order": 8, 
+        "outgoing_edges": {
+            "-124139640#0": [
+                "-124139640#0_0"
+            ], 
+            "-322361922#1": [
+                "-322361922#1_0", 
+                "-322361922#1_1"
+            ], 
+            "322361922#3": [
+                "322361922#3_1", 
+                "322361922#3_0"
+            ]
+        }, 
+        "phases": [
+            0, 
+            2, 
+            4, 
+            6
+        ], 
+        "sampling_interval": 1, 
+        "saturation_flow_rate": 0.8, 
+        "startup_lost_time": 3, 
+        "time_resolution": 1, 
+        "turn_proportions": [
+            {
+                "incoming_edge": "-322361922#3", 
+                "outgoing_edge": "-124139640#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-322361922#3", 
+                "outgoing_edge": "-322361922#1", 
+                "phase": 0, 
+                "probability": 1.0
+            }, 
+            {
+                "incoming_edge": "-322361922#3", 
+                "outgoing_edge": "322361922#3", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "124139640#0", 
+                "outgoing_edge": "-124139640#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "124139640#0", 
+                "outgoing_edge": "-322361922#1", 
+                "phase": 6, 
+                "probability": 0.5
+            }, 
+            {
+                "incoming_edge": "124139640#0", 
+                "outgoing_edge": "322361922#3", 
+                "phase": 4, 
+                "probability": 0.5
+            }, 
+            {
+                "incoming_edge": "322361922#1", 
+                "outgoing_edge": "-124139640#0", 
+                "phase": 4, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "322361922#1", 
+                "outgoing_edge": "-322361922#1", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "322361922#1", 
+                "outgoing_edge": "322361922#3", 
+                "phase": 0, 
+                "probability": 1.0
+            }
+        ], 
+        "upstream_agents": [
+            {
+                "connecting_edge": "-322361922#3", 
+                "id": "104523004"
+            }, 
+            {
+                "connecting_edge": "322361922#1", 
+                "id": "104530304"
+            }
+        ]
+    }, 
+    "3887055274": {
+        "Gmax": {
+            "0": 55, 
+            "2": 55, 
+            "4": 55, 
+            "6": 55
+        }, 
+        "Gmin": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "Y": {
+            "0": 5, 
+            "2": 5, 
+            "4": 5, 
+            "6": 5
+        }, 
+        "edge_lengths": {
+            "-54460235#4": 43.28, 
+            "375884812#0": 36.18, 
+            "54460235#0": 75.06
+        }, 
+        "extension_threshold": 60, 
+        "free_flow_speed": 10, 
+        "headway": 2.5, 
+        "horizon_extension": 15, 
+        "id": "3887055274", 
+        "incoming_edges": {
+            "-54460235#4": [
+                "-54460235#4_0", 
+                "-54460235#4_1"
+            ], 
+            "375884812#0": [
+                "375884812#0_0"
+            ], 
+            "54460235#0": [
+                "54460235#0_0", 
+                "54460235#0_1"
+            ]
+        }, 
+        "merging_threshold": 3, 
+        "minimum_extension": 0, 
+        "order": 9, 
+        "outgoing_edges": {
+            "-375884812#0": [
+                "-375884812#0_0"
+            ], 
+            "-54460235#0": [
+                "-54460235#0_0", 
+                "-54460235#0_1"
+            ], 
+            "54460235#4": [
+                "54460235#4_1", 
+                "54460235#4_0"
+            ]
+        }, 
+        "phases": [
+            0, 
+            2, 
+            4, 
+            6
+        ], 
+        "sampling_interval": 1, 
+        "saturation_flow_rate": 0.8, 
+        "startup_lost_time": 3, 
+        "time_resolution": 1, 
+        "turn_proportions": [
+            {
+                "incoming_edge": "-54460235#4", 
+                "outgoing_edge": "-375884812#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "-54460235#4", 
+                "outgoing_edge": "-54460235#0", 
+                "phase": 0, 
+                "probability": 1.0
+            }, 
+            {
+                "incoming_edge": "-54460235#4", 
+                "outgoing_edge": "54460235#4", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "375884812#0", 
+                "outgoing_edge": "-375884812#0", 
+                "phase": 6, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "375884812#0", 
+                "outgoing_edge": "-54460235#0", 
+                "phase": 6, 
+                "probability": 0.5
+            }, 
+            {
+                "incoming_edge": "375884812#0", 
+                "outgoing_edge": "54460235#4", 
+                "phase": 4, 
+                "probability": 0.5
+            }, 
+            {
+                "incoming_edge": "54460235#0", 
+                "outgoing_edge": "-375884812#0", 
+                "phase": 4, 
+                "probability": 0.2
+            }, 
+            {
+                "incoming_edge": "54460235#0", 
+                "outgoing_edge": "-54460235#0", 
+                "phase": 2, 
+                "probability": 0.0
+            }, 
+            {
+                "incoming_edge": "54460235#0", 
+                "outgoing_edge": "54460235#4", 
+                "phase": 0, 
+                "probability": 0.8
+            }
+        ], 
+        "upstream_agents": [
+            {
+                "connecting_edge": "54460235#0", 
+                "id": "104523004"
+            }
+        ]
+    }
+}

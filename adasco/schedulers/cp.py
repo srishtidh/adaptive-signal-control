@@ -45,7 +45,7 @@ class CP(object):
 
         self.model = docplex.cp.model.CpoModel()
 
-        self.model.parameters = CpoParameters(LogVerbosity='Terse', Workers=self.threads,
+        self.model.parameters = CpoParameters(LogVerbosity='Quiet', Workers=self.threads,
                                          TimeLimit=self.timelimit, WarningLevel=0,
                                          TimeMode='CPUTime')
 
